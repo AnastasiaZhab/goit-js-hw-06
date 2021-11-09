@@ -10,11 +10,11 @@ const ingredients = [
 // 
 const listEl = document.getElementById('ingredients');
 
-const elements = ingredients.map(item => {
+const elements = ingredients.map(elem => {
 
   const addItemEl = document.createElement('li');
   addItemEl.classList.add('item');
-  addItemEl.textContent = item;
+  addItemEl.textContent = elem;
   return addItemEl;
 });
 

@@ -10,7 +10,7 @@ const productsEl = listItemEl[1].querySelector('h2');
 console.log(`Category: ${productsEl.textContent}`);
 console.log(`Elements: ${listItemEl[1].querySelectorAll('li').length}`)
 
-const technologiesDef = listItemEl[2].querySelector('h2');
+const technologiesEl = listItemEl[2].querySelector('h2');
 console.log(`Category: ${technologiesEl.textContent}`);
 console.log(`Elements: ${listItemEl[2].querySelectorAll('li').length}`)
 
