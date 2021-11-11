@@ -1,5 +1,4 @@
 const formEl = document.querySelector('.login-form');
-const label = formEl.querySelector('label');
 
 
 formEl.addEventListener('submit', onFormSubmit);
@@ -13,7 +12,7 @@ function onFormSubmit(event) {
     
     const email = elements.email.value;
     const password = elements.password.value;
-    
+
     if (email === '' || password === '') {
         window.alert('Милый друг, заполни все поля, пожалуйста :)');
 }
