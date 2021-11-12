@@ -15,12 +15,13 @@ function onFormSubmit(event) {
 
     if (email === '' || password === '') {
         window.alert('Милый друг, заполни все поля, пожалуйста :)');
-}
-    
-    const formData = {
-        email,
-        password
     }
-    console.log(formData);
+    else {
     
+        const formData = {
+            email,
+            password
+        }
+        console.log(formData);
+    }
 }
